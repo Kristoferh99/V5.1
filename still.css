@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+}
+
+h1 {
+  color: #909090;
+  text-align: center;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #6060ff;
+  height: 100vm;
+}
+
+ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  text-justify: auto;
+}
+
+li {
+  padding-right: 40px;
+  padding-left: 40px;
+  display: inline;
+  font-size: 1.42em;
+  font-family: 'Major Mono Display', monospace;
+}
+
+p {
+  color: #909090;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: start;
+      align-self: start;
+  text-align: center;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 10vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: start;
+      align-self: start;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #636377;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+.animation {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sky {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-name: cloud;
+          animation-name: cloud;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  overflow: hidden;
+}
+
+.sky #svg5332 {
+  overflow: hidden;
+}
+
+.sky #layer1 {
+  overflow: hidden;
+}
+
+.sky path#path10000 {
+  overflow: hidden;
+}
+
+@-webkit-keyframes cloud {
+  from {
+    left: 0;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+  50% {
+    left: 50%;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+  100% {
+    left: 100%;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+  to {
+    left: 100%;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+}
+
+@keyframes cloud {
+  from {
+    left: 0;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+  50% {
+    left: 50%;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+  100% {
+    left: 100%;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+  to {
+    left: 100%;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=still.css.map */
