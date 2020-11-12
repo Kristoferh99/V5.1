@@ -1,0 +1,259 @@
+@import "./section";
+@import "./variables";
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 600px) {
+    .forsida {
+        height: 100vh;
+        width: auto;
+        align-items: center;
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+        background-color: $colorlight;
+        display: block;
+
+        h1 {
+            margin-top: 0;
+            display: flex;
+            height: 45vh;
+            text-align: center;
+            color: $colordark;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-size: 45px;
+            font-family: "Nunito", sans-serif;
+        }
+
+        p {
+            text-align: center;
+            font-size: 25px;
+            font-family: "Nunito", sans-serif;
+            color: $colordark;
+        }
+    }
+
+    .haus {
+        margin: 0;
+        padding: 0;
+        height: 75vh;
+        width: 100%;
+        background-color: #002e62;
+        display: grid;
+        justify-items: center;
+
+        p {
+            color: $colorlight;
+        }
+        h4 {
+            font-family: "Nunito", sans-serif;
+            color: $colorlight;
+        }
+        ol {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            align-items: center;
+            margin: 8px;
+        }
+        a {
+            font-family: "Nunito", sans-serif;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        a:visited {
+            text-decoration: none;
+            color: #8c92ac;
+        }
+    }
+
+    section {
+        margin: 0;
+        background-color: $colorlight;
+
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-family: "Nunito", sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            letter-spacing: 12px;
+            border-bottom: 4px solid $colordark;
+        }
+        h3 {
+            text-align: center;
+            font-family: "Nunito", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    
+
+    footer {
+        background-color: $colordark;
+        color: $colorlight;
+    }
+}
+@media screen and (min-width: 600px) {
+    .forsida {
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+        background-color: $colorlight;
+        display: block;
+
+        h1 {
+            margin-top: 0;
+            display: flex;
+            height: 45vh;
+            text-align: center;
+            color: $colordark;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-size: 45px;
+            font-family: "Nunito", sans-serif;
+        }
+        p {
+            text-align: center;
+            font-size: 35px;
+            font-family: "Nunito", sans-serif;
+            color: $colordark;
+        }
+    }
+
+    .haus {
+        margin: 0;
+        padding: 0;
+        height: 75vh;
+        width: 100%;
+        background-color: #002e62;
+        display: grid;
+        justify-items: center;
+
+        p {
+            text-align: center;
+            display: block;
+            font-size: 30px;
+            font-family: "Nunito", sans-serif;
+            width: 100vh;
+            height: 10vh;
+            color: $colorlight;
+        }
+        h4 {
+            border-bottom: 2px solid #8c92ac;
+            display: inline;
+            text-align: center;
+            justify-items: center;
+            font-size: 25px;
+            font-family: "Nunito", sans-serif;
+            color: #8c92ac;
+        }
+        ol {
+            margin: 0;
+            padding: 0;
+            width: fit-content;
+            height: fit-content;
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.265);
+            }
+        }
+
+        li {
+            display: inline;
+            align-items: center;
+            margin: 10px;
+        }
+        a {
+            font-family: "Nunito", sans-serif;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:visited {
+            text-decoration: none;
+            color: #8c92ac;
+        }
+    }
+
+    section.variables {
+        background-color: $colorlight;
+        width: 50%;
+        height: 25em;
+        display: block;
+        margin: 0;
+        padding: 20px;
+        float: left;
+    }
+
+    section.nested {
+        background-color: $colorlight;
+        width: 50%;
+        height: 25em;
+        display: block;
+        margin: 0;
+        padding: 20px;
+        float: right;
+    }
+
+    .mixVar {
+        background-color: $colorlight;
+        width: 50%;
+        height: 40em;
+        display: block;
+        margin: 0;
+        padding: 20px;
+        float: left;
+    }
+
+    .func {
+        background-color: $colorlight;
+        width: 50%;
+        height: 40em;
+        display: block;
+        margin: 0;
+        padding: 20px;
+        float: right;
+
+        h2 {
+            font-family: "Nunito", sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            letter-spacing: 12px;
+            border-bottom: 4px solid $colordark;
+        }
+        h3 {
+            text-align: center;
+            font-family: "Nunito", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    footer {
+        background-color: $colordark;
+        color: $colorlight;
+    }
+}
